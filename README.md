@@ -21,7 +21,8 @@ The SNS topic can be used to send notifications to subscribers via email, SMS, o
  scalable serverless architectures.
 
 ### This Terraform file creates an EventBridge rule that filters for EC2 instance state-change notifications and sends the filtered events to an SNS topic and an SQS queue. The SNS topic has a subscription for email notifications.
-```tprovider "aws" {
+```t
+provider "aws" {
   region = "us-east-1"
 }
 //  For SNS
@@ -118,3 +119,6 @@ resource "aws_cloudwatch_event_target" "sqs_target" {
   }
 }
 ```
+first navigate to file where main.tf is present and perform below command.
+```
+terraform init
