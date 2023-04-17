@@ -119,6 +119,19 @@ resource "aws_cloudwatch_event_target" "sqs_target" {
   }
 }
 ```
-first navigate to file where main.tf is present and perform below command.
-```
+first navigate to file where main.tf is present and perform below command. it performs backend initialization, and plugin installation.
+```t
 terraform init
+```
+then, use need to use the below command to validate the file
+```t
+terraform validate
+```
+and terraform plan will generate execution plan, showing you what actions will be taken without actuallay performing planned actions.
+```t
+terraform plan
+```
+after perform below command to deploy the application in aws and '--auto-approve' applying changes without having to interactively type 'yes' to the plan.
+```t
+terraform apply --auto-approve
+```
