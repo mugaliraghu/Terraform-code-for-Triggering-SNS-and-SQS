@@ -135,6 +135,9 @@ after perform below command to deploy the application in aws and '--auto-approve
 ```t
 terraform apply --auto-approve
 ```
+after using above command the resources that will created in aws console is shown in below image
+![Screenshot (34)](https://user-images.githubusercontent.com/120295902/232398160-06f0b0c0-d96d-43b5-9edb-a5c63863c408.png)
+
 to destroy this application use belo command
 ```t
 terraform destroy --auto-approve
