@@ -135,3 +135,7 @@ after perform below command to deploy the application in aws and '--auto-approve
 ```t
 terraform apply --auto-approve
 ```
+to destroy this application use belo command
+```t
+terraform destroy --auto-approve
+```
