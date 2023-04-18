@@ -43,6 +43,7 @@ How i will get the notification as shown in below images.
 ### The image it is in stopped state
 <img width="842" alt="instance_stopped state" src="https://user-images.githubusercontent.com/120295902/232736384-cd47ba2d-4f33-4bc9-b4f9-3bd886d8f569.png">
 Now i am going to start this instance manually, then the notification in got as shown below
+
 ### The screenshorts that i got a notification form SNS topic and Email subscription.
 ![Screenshot (28)](https://user-images.githubusercontent.com/120295902/232382197-761c170a-aed5-4af0-b4b2-6cfe8f4bbd97.png)
 
