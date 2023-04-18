@@ -135,6 +135,9 @@ after perform below command to deploy the application in aws and '--auto-approve
 ```t
 terraform apply --auto-approve
 ```
+The resource that are creating after doing terraform apply as shown in below image.
+![Screenshot (34)](https://user-images.githubusercontent.com/120295902/232740479-98528ca0-f31e-4b22-9455-9f0ce4328f9f.png)
+
 after using above command the resources that will created in aws console is shown in below image
 ![Screenshot (34)](https://user-images.githubusercontent.com/120295902/232398160-06f0b0c0-d96d-43b5-9edb-a5c63863c408.png)
 
