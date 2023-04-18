@@ -1,11 +1,11 @@
 # Terraform-code-for-Triggering-SNS-and-SQS
 
-## What it is?
+## Objective
+
 This terraform file creates several resources, including an SNS topic, an SQS queue, and an EventBridge rule 
 that filters for certain events and sends those events to the SNS topic and SQS queue. The resources are defined 
 using the terraform resource.
 
-## Where it is useful?
 This Terraform file  is useful for creating a serverless application on AWS that uses EventBridge to filter and route events to 
 an SNS topic and an SQS queue. 
 
