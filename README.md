@@ -21,6 +21,8 @@ Using main.tf file, you can define an EventBridge rule that filters for certain 
 The SNS topic can be used to send notifications to subscribers via email, SMS, or other protocols, 
 while the SQS queue can be used to store and process the messages asynchronously. This can be useful for building real-time monitoring and alerting systems, as well as decoupled and scalable serverless architectures.
 
+The aim of the application is, When an EC2 instance state changes, AWS EventBridge sends a notification message to the EventRule defined in the CloudFormation template. The EventRule filters the events based on source and detail-type, and sends the notification message to two targets - the SNS topic and the SQS queue.
+
 first navigate to file where main.tf is present and perform below command. it performs backend initialization, and plugin installation.
 ```t
 terraform init
